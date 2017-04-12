@@ -1,0 +1,6 @@
+framework module Pods_Mobile_Challenge_2 {
+  umbrella header "Pods-Mobile Challenge 2-umbrella.h"
+
+  export *
+  module * { export * }
+}

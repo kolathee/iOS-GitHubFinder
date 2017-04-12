@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497872D41C3BFF266D0F23A7 /* Pods_Mobile_Challenge_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7595409452400CA8EF8DB0C7 /* Pods_Mobile_Challenge_2.framework */; };
+		A42A86E21E97DE620099C4B8 /* RepoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86E11E97DE620099C4B8 /* RepoVC.swift */; };
+		A42A86E41E97DE720099C4B8 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86E31E97DE720099C4B8 /* UserVC.swift */; };
+		A42A86E81E9810B20099C4B8 /* DescriptionCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86E71E9810B20099C4B8 /* DescriptionCVC.swift */; };
+		A42A86EB1E9816540099C4B8 /* DescriptionCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86EA1E9816540099C4B8 /* DescriptionCollectionVC.swift */; };
+		A42A86EF1E98258F0099C4B8 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86EE1E98258F0099C4B8 /* Organization.swift */; };
+		A42A86F31E98410F0099C4B8 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A86F21E98410F0099C4B8 /* Follower.swift */; };
 		A44F90EC1E960FF30061A807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F90EB1E960FF30061A807 /* AppDelegate.swift */; };
-		A44F90EE1E960FF30061A807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F90ED1E960FF30061A807 /* ViewController.swift */; };
 		A44F90F11E960FF30061A807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F90EF1E960FF30061A807 /* Main.storyboard */; };
 		A44F90F41E960FF30061A807 /* Mobile_Challenge_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A44F90F21E960FF30061A807 /* Mobile_Challenge_2.xcdatamodeld */; };
 		A44F90F61E960FF30061A807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44F90F51E960FF30061A807 /* Assets.xcassets */; };
 		A44F90F91E960FF30061A807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F90F71E960FF30061A807 /* LaunchScreen.storyboard */; };
+		A44F91011E96102B0061A807 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F91001E96102B0061A807 /* FirstVC.swift */; };
+		A44F91041E9614000061A807 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F91031E9614000061A807 /* Repository.swift */; };
+		A44F91061E96140A0061A807 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F91051E96140A0061A807 /* User.swift */; };
+		A44F910A1E96317D0061A807 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F91091E96317D0061A807 /* GitHubAPI.swift */; };
+		A44F91161E9672D60061A807 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F91141E9672D60061A807 /* UserViewCell.swift */; };
+		A44F91171E9672D60061A807 /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44F91151E9672D60061A807 /* UserViewCell.xib */; };
+		A4674A3D1E9A150D00E6224C /* RepoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4674A3B1E9A150D00E6224C /* RepoViewCell.swift */; };
+		A4674A3E1E9A150D00E6224C /* RepoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4674A3C1E9A150D00E6224C /* RepoViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7595409452400CA8EF8DB0C7 /* Pods_Mobile_Challenge_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Challenge_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42A86E11E97DE620099C4B8 /* RepoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoVC.swift; sourceTree = "<group>"; };
+		A42A86E31E97DE720099C4B8 /* UserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		A42A86E71E9810B20099C4B8 /* DescriptionCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCVC.swift; sourceTree = "<group>"; };
+		A42A86EA1E9816540099C4B8 /* DescriptionCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCollectionVC.swift; sourceTree = "<group>"; };
+		A42A86EE1E98258F0099C4B8 /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		A42A86F21E98410F0099C4B8 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		A44F90E81E960FF30061A807 /* Mobile Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44F90EB1E960FF30061A807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A44F90ED1E960FF30061A807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A44F90F01E960FF30061A807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A44F90F31E960FF30061A807 /* Mobile_Challenge_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mobile_Challenge_2.xcdatamodel; sourceTree = "<group>"; };
 		A44F90F51E960FF30061A807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44F90F81E960FF30061A807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A44F90FA1E960FF30061A807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F91001E96102B0061A807 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		A44F91031E9614000061A807 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A44F91051E96140A0061A807 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A44F91091E96317D0061A807 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		A44F91141E9672D60061A807 /* UserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		A44F91151E9672D60061A807 /* UserViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewCell.xib; sourceTree = "<group>"; };
+		A4674A3B1E9A150D00E6224C /* RepoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoViewCell.swift; sourceTree = "<group>"; };
+		A4674A3C1E9A150D00E6224C /* RepoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoViewCell.xib; sourceTree = "<group>"; };
+		ADF06375015FD7921C65E07F /* Pods-Mobile Challenge 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Challenge 2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile Challenge 2/Pods-Mobile Challenge 2.release.xcconfig"; sourceTree = "<group>"; };
+		EE14407AD379756C2BEBF142 /* Pods-Mobile Challenge 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Challenge 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile Challenge 2/Pods-Mobile Challenge 2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497872D41C3BFF266D0F23A7 /* Pods_Mobile_Challenge_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		669A299D301B8485C7B18440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE14407AD379756C2BEBF142 /* Pods-Mobile Challenge 2.debug.xcconfig */,
+				ADF06375015FD7921C65E07F /* Pods-Mobile Challenge 2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DE8D1B5D1AFE9494BD5A444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7595409452400CA8EF8DB0C7 /* Pods_Mobile_Challenge_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A42A86E91E9815D40099C4B8 /* CustomCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A42A86EA1E9816540099C4B8 /* DescriptionCollectionVC.swift */,
+			);
+			name = CustomCollection;
+			sourceTree = "<group>";
+		};
 		A44F90DF1E960FF30061A807 = {
 			isa = PBXGroup;
 			children = (
 				A44F90EA1E960FF30061A807 /* Mobile Challenge 2 */,
 				A44F90E91E960FF30061A807 /* Products */,
+				669A299D301B8485C7B18440 /* Pods */,
+				6DE8D1B5D1AFE9494BD5A444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +114,12 @@
 		A44F90EA1E960FF30061A807 /* Mobile Challenge 2 */ = {
 			isa = PBXGroup;
 			children = (
+				A44F91081E9630EE0061A807 /* Services */,
+				A44F91071E961A2C0061A807 /* Controllers */,
+				A44F91021E9613E90061A807 /* Models */,
+				A44F910F1E9667CE0061A807 /* CustomCell */,
+				A42A86E91E9815D40099C4B8 /* CustomCollection */,
 				A44F90EB1E960FF30061A807 /* AppDelegate.swift */,
-				A44F90ED1E960FF30061A807 /* ViewController.swift */,
 				A44F90EF1E960FF30061A807 /* Main.storyboard */,
 				A44F90F51E960FF30061A807 /* Assets.xcassets */,
 				A44F90F71E960FF30061A807 /* LaunchScreen.storyboard */,
@@ -67,6 +129,47 @@
 			path = "Mobile Challenge 2";
 			sourceTree = "<group>";
 		};
+		A44F91021E9613E90061A807 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A44F91051E96140A0061A807 /* User.swift */,
+				A44F91031E9614000061A807 /* Repository.swift */,
+				A42A86EE1E98258F0099C4B8 /* Organization.swift */,
+				A42A86F21E98410F0099C4B8 /* Follower.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A44F91071E961A2C0061A807 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A44F91001E96102B0061A807 /* FirstVC.swift */,
+				A42A86E11E97DE620099C4B8 /* RepoVC.swift */,
+				A42A86E31E97DE720099C4B8 /* UserVC.swift */,
+				A42A86E71E9810B20099C4B8 /* DescriptionCVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A44F91081E9630EE0061A807 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A44F91091E96317D0061A807 /* GitHubAPI.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		A44F910F1E9667CE0061A807 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				A44F91141E9672D60061A807 /* UserViewCell.swift */,
+				A44F91151E9672D60061A807 /* UserViewCell.xib */,
+				A4674A3B1E9A150D00E6224C /* RepoViewCell.swift */,
+				A4674A3C1E9A150D00E6224C /* RepoViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A44F90FD1E960FF30061A807 /* Build configuration list for PBXNativeTarget "Mobile Challenge 2" */;
 			buildPhases = (
+				F7BC1097AE8827F8FB4E480A /* [CP] Check Pods Manifest.lock */,
 				A44F90E41E960FF30061A807 /* Sources */,
 				A44F90E51E960FF30061A807 /* Frameworks */,
 				A44F90E61E960FF30061A807 /* Resources */,
+				CEA4BC3998FA983C11F92C3B /* [CP] Embed Pods Frameworks */,
+				89E77C03CF6C17BF354F8C25 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,21 +234,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44F90F91E960FF30061A807 /* LaunchScreen.storyboard in Resources */,
+				A4674A3E1E9A150D00E6224C /* RepoViewCell.xib in Resources */,
 				A44F90F61E960FF30061A807 /* Assets.xcassets in Resources */,
+				A44F91171E9672D60061A807 /* UserViewCell.xib in Resources */,
 				A44F90F11E960FF30061A807 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89E77C03CF6C17BF354F8C25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile Challenge 2/Pods-Mobile Challenge 2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA4BC3998FA983C11F92C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mobile Challenge 2/Pods-Mobile Challenge 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BC1097AE8827F8FB4E480A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A44F90E41E960FF30061A807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44F90EE1E960FF30061A807 /* ViewController.swift in Sources */,
+				A42A86E21E97DE620099C4B8 /* RepoVC.swift in Sources */,
+				A42A86F31E98410F0099C4B8 /* Follower.swift in Sources */,
+				A4674A3D1E9A150D00E6224C /* RepoViewCell.swift in Sources */,
+				A42A86E41E97DE720099C4B8 /* UserVC.swift in Sources */,
+				A44F91011E96102B0061A807 /* FirstVC.swift in Sources */,
+				A42A86EF1E98258F0099C4B8 /* Organization.swift in Sources */,
+				A42A86E81E9810B20099C4B8 /* DescriptionCVC.swift in Sources */,
+				A44F910A1E96317D0061A807 /* GitHubAPI.swift in Sources */,
 				A44F90F41E960FF30061A807 /* Mobile_Challenge_2.xcdatamodeld in Sources */,
 				A44F90EC1E960FF30061A807 /* AppDelegate.swift in Sources */,
+				A44F91061E96140A0061A807 /* User.swift in Sources */,
+				A42A86EB1E9816540099C4B8 /* DescriptionCollectionVC.swift in Sources */,
+				A44F91041E9614000061A807 /* Repository.swift in Sources */,
+				A44F91161E9672D60061A807 /* UserViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +432,7 @@
 		};
 		A44F90FE1E960FF30061A807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE14407AD379756C2BEBF142 /* Pods-Mobile Challenge 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DZ3FYPCUHX;
@@ -278,6 +446,7 @@
 		};
 		A44F90FF1E960FF30061A807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF06375015FD7921C65E07F /* Pods-Mobile Challenge 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DZ3FYPCUHX;
@@ -308,6 +477,7 @@
 				A44F90FF1E960FF30061A807 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
